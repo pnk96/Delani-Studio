@@ -113,3 +113,20 @@ $(document).ready(function(){
     $("#hfn8").hide();
   });
 });
+
+  /*Contact information*/
+  
+  $(document).ready(function(){
+    $("form#contact-form").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#c-name").val();
+      var email = $("input#c-email").val();
+      var message = $("textarea#comment").val();
+      if ($("input#c-name").val() && $("input#c-email").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }  
+    });
+  });
