@@ -1,0 +1,9 @@
+#backimg {
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top: 17%;
+}
