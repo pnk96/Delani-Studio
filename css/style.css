@@ -73,6 +73,23 @@ text-align: center;
   font-size: 40px;
 }
 
+input[type=text], input[type=email], #comment {
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+.form-control {
+  background: transparent;
+  font-size: 30px;
+  color: white;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
 .social-icons {
   text-align: center  ;
 }
